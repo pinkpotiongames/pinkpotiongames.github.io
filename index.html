@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Potion Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            letter-spacing: -0.02em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            background-color: rgba(255, 255, 255, 0.02);
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+        }
+
+        header h1 {
+            display: none;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .game-link {
+            display: inline-block;
+            text-decoration: none;
+            margin: 2rem 0;
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-link img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .game-link:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .game-link:hover img {
+            transform: scale(1.02);
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .contact-info h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #ff69b4;
+        }
+
+        .contact-info p {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .game-section {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .game-section h2 {
+            display: none;
+        }
+
+        .game-logo {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto 2rem;
+            display: block;
+        }
+
+        .game-section p {
+            font-size: 0.95rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .studio-description {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.9);
+            padding: 0 1rem;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/logo.jpg" alt="Pink Potion Games Logo" class="logo">
+            <div class="studio-description">
+                Pink Potion is a tiny indie studio run by a duo: one artist-writer who handles everything from story and visuals to sound and design, and one dedicated coder who brings it all to life. Together, they create immersive adult visual novels for a feminine audience, focusing on rich storytelling, emotional depth, and slow-burn romance. With each game, they strive to deliver mature, beautifully crafted experiences where every choice matters.
+            </div>
+        </header>
+
+        <main>
+            <div class="game-section">
+                <img src="assets/Logo_transparent.png" alt="Yakuza Kiss" class="game-logo">
+                <p>Yakuza Kiss is a dark, mature visual novel that blends crime, romance, and psychological drama. In the neon-lit depths of Cyan City, Jeong's life is upended when she's drawn into the orbit of Yuki, an enigmatic Yakuza boss haunted by his own demons. Caught between survival and desire, Jeong must navigate a treacherous underworld where every choice shapes her fate and her relationships. With branching dialogue, rich atmosphere, and a gripping slow-burn romance, Yakuza Kiss offers an intense, cinematic experience where trust is fragile, and nothing is as it seems.</p>
+                <a href="https://store.steampowered.com/app/847950/Yakuza_Kiss/" class="game-link" target="_blank">
+                    <img src="assets/new_chapter_capsule_main.png" alt="Play Yakuza Kiss on Steam">
+                </a>
+            </div>
+
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Email: info@pinkpotiongames.com</p>
+                <p>Twitter: @PinkPotionGames</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 
